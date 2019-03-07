@@ -1,7 +1,36 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<head><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="typeWriter()">
+
+<div class="container-fluid head1">
+	<div class="row"><img src="prakash_pic.jpg" class="img-circle col-sm-4 col-lg-2" /> <div class="col-sm-8 col-lg-10 pad10"><h1>Prakash R</h1>
+  <p id="typewrite"></p>
+		<div class="row">
+			<a href="https://www.linkedin.com/in/prakashiit/" class="mar10 fa fa-linkedin"></a>
+			<a href="mailto:prakash.r@iitgn.ac.in" class="mar10 fa fa-envelope"></a>
+			<a href="https://github.com/delta-ng" class="mar10 fa fa-git"></a>
+		</div>
+		</div>
+	</div>
+</div>
+<script>
+	var i = 0;
+var txt = 'Sophomore Year at IIT Gandhinagar';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("typewrite").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
 </body>
 </html>
