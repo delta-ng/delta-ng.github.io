@@ -3,21 +3,30 @@
 <head><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="magic.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body onload="typeWriter()">
 
 <div class="container-fluid head1">
-	<div class="row"><img src="prakash_pic.jpg" class="img-circle col-sm-4 col-lg-2" /> <div class="col-sm-8 col-lg-10 pad10"><h1>Prakash R</h1>
+	<div class="row"><div class="col-sm-4 col-lg-2 msg"><img src="prakash_pic.jpg"  class="img-circle full"/></div><div class="col-sm-8 col-lg-10 pad10 text-center text-md-left"><h1>Prakash R</h1>
   <p id="typewrite"></p>
-		<div class="row">
-			<a href="https://www.linkedin.com/in/prakashiit/" class="mar10 fa fa-linkedin"></a>
+		<div class="flex-row d-flex justify-content-center justify-content-md-start">
+			<a href="https://www.linkedin.com/in/prakashiit/" class="fa fa-linkedin"></a>
 			<a href="mailto:prakash.r@iitgn.ac.in" class="mar10 fa fa-envelope"></a>
 			<a href="https://github.com/delta-ng" class="mar10 fa fa-git"></a>
 		</div>
 		</div>
 	</div>
 </div>
+<!--<div class="container-fluid full">-->
+	<!--<div class="row full">-->
+		<!--<div class="col-lg- full side">-->
+<!--okay-->
+		<!--</div>-->
+	<!--</div>-->
+<!--</div>-->
 <script>
 	var i = 0;
 var txt = 'Sophomore Year at IIT Gandhinagar';
@@ -30,6 +39,13 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 }
+// $('.img-circle').hover(function () {
+//   $(this).addClass('magictime slideDown');
+// });
+// $('.img-circle').mouseout(function () {
+//   $(this).removeClass('magictime slideDown');
+// });
+
 </script>
 
 </body>
