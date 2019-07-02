@@ -31,6 +31,7 @@ body {
     border-radius: 50%;
     position: relative;
     display: block;
+<<<<<<< HEAD
     border: 5px solid slategrey;
 }
 .spac {
@@ -39,6 +40,42 @@ body {
 img  {
     max-width: 50vw;
     max-height: 50vw;
+=======
+    border: 5px solid white;
+    -webkit-animation: mover 3s alternate-reverse;
+    animation: mover 3s alternate-reverse;
+}
+.img-circle:hover {
+    /*-webkit-animation: mover 3s ;*/
+    /*animation: mover 3s ;*/
+    /*overflow:hidden;*/
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-100%); }
+}
+
+.msg {
+    max-width: 50vw;
+    max-height: 50vw;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    background: white;
+     border-radius: 50%;
+    padding: 0%;
+    overflow:hidden;
+     background-image: url("hi.jpeg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */ /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+} /*okau*/
+img  {
+    max-width: 50vw;
+    max-height: 50vw;
+    display: block;
+>>>>>>> f03efc0964b34cbf5a518df27a3d5adee252fb96
   margin-left: auto;
   margin-right: auto;
 }
@@ -96,6 +133,7 @@ img  {
 }
 .side {
     background-color: #919191;
+<<<<<<< HEAD
 }
 
 .white {
@@ -184,3 +222,6 @@ p { display: inline }
 .card:hover {
   box-shadow: 0 8px 20px 0 #00466e;
 }
+=======
+}
+>>>>>>> f03efc0964b34cbf5a518df27a3d5adee252fb96
