@@ -55,8 +55,8 @@
   </div>
 </nav>
 <div class="container-fluid head1">
-	<div class="row"><div class="col-sm-4 col-lg-2 msg"><img src="prakash_pic.jpg"  class="img-circle full"/></div><div class="col-sm-8 col-lg-10 pad10 text-center text-md-left"><h1>Prakash R</h1>
-  <p id="typewrite">S</p>
+	<div class="row"><div class="col-sm-4 col-lg-2 msg"><img src="prakash_pic.jpg"  class="img-circle full"/></div><div class="col-sm-8 pad10 text-center text-md-left"><h1>Prakash R</h1>
+  <pre id="typewrite">S</pre>
 		<div class="flex-row d-flex spac justify-content-center justify-content-md-start">
 			<a href="https://www.linkedin.com/in/prakashiit/" class="fa fa-linkedin"></a>
 			<a href="mailto:prakash.r@iitgn.ac.in" class="mar10 fa fa-envelope"></a>
@@ -73,8 +73,8 @@
                 <h3>About Me</h3>
             </div>
             <div class="normal-text">
-                I am a sophomore at Department of Electrical and Engineering at IIT Gandhinagar, India.
-
+                I am a sophomore at Department of Electrical and Engineering at IIT Gandhinagar, India. <br>
+                Interests: <p id="box">Data Analysis</p> <p id="box"> Full Stack Devlopment</p>
             </div>
         </div>
         <div class="col-lg-3 white pad12 card">
@@ -165,7 +165,7 @@ function typeWriter() {
   }
 }
 function typewriter1() {
-    document.getElementById("typewrite").innerHTML = tct;
+    document.getElementById("typewrite").innerHTML = tct+" ";
     setTimeout(typeWriter,speed1);
 }
 
