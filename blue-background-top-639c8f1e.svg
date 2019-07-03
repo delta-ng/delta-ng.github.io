@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <defs>
+        <linearGradient id="a" x1="0%" x2="225.795%" y1="7.598%" y2="157.579%">
+            <stop offset="0%" stop-color="#45B2E8"/>
+            <stop offset="100%" stop-color="#3ECF8E"/>
+        </linearGradient>
+    </defs>
+    <polygon fill="url(#a)" id="e1_polygon" points="0 0 0 100 100 85 100 0"></polygon>
+</svg>
