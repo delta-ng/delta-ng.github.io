@@ -147,7 +147,10 @@ img  {
     /*font-family: 'Merienda', cursive;*/
 }
 .normal-text {
-    padding: 2vh 1vh 1vh 2vh;
+    padding-top: 2vh;
+    padding-right: 2vh;
+    padding-left: 2vh;
+    padding-bottom: 1vh;
     /*border-color: #00466e;*/
     /*border-width: 2px;*/
     /*border-style: solid;*/
