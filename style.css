@@ -130,6 +130,12 @@ img  {
     margin-right: 6%;
     padding:0 !important;
 }
+.pad11 {
+    margin-top: 1%;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding:0 !important;
+}
 @media (max-width: 768px) {
     .head-text {
         text-align: center;
@@ -146,8 +152,32 @@ img  {
     text-align: center;
     /*font-family: 'Merienda', cursive;*/
 }
+.topic {
+    margin-top: 2vh;
+    margin-right: 2vh;
+    margin-left: 2vh;
+    margin-bottom: 1vh;
+/*    margin-right:auto;
+    margin-left:auto;*/
+    align-content: flex-start;
+    /*background-color: white;*/
+    color:#2a709b;
+    border-bottom: 2px solid #2a709b;
+    text-align: left;
+    /*font-family: 'Merienda', cursive;*/
+}
 .normal-text {
     padding-top: 2vh;
+    padding-right: 2vh;
+    padding-left: 2vh;
+    padding-bottom: 1vh;
+    /*border-color: #00466e;*/
+    /*border-width: 2px;*/
+    /*border-style: solid;*/
+    /*border-radius: 0 0 15px 15px;*/
+}
+.normal-text1 {
+    padding-top: 0vh;
     padding-right: 2vh;
     padding-left: 2vh;
     padding-bottom: 1vh;

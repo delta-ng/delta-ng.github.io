@@ -32,11 +32,11 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
       <li class="nav-item">
-        <a class="nav-link" href="project.html">Projects</a>
+        <a class="nav-link" href="index.html">Home </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="Prakash_R.pdf">Resume</a>
@@ -55,33 +55,51 @@
   </div>
 </nav>
 <div class="container-fluid head1">
-	<div class="row"><div class="col-sm-4 col-lg-2 msg"><img src="prakash_pic.jpg"  class="img-circle full"/></div><div class="col-sm-8 pad10 text-center text-md-left"><h1>Prakash R</h1>
-  <pre id="typewrite">S</pre>
-		<div class="flex-row d-flex spac justify-content-center justify-content-md-start">
+  <h1 class="pad10">Projects</h1>
+	<!-- <div class="row"><div class="col-sm-4 col-lg-2 msg"><img src="prakash_pic.jpg"  class="img-circle full"/></div><div class="col-sm-8 pad10 text-center text-md-left"><h1>Prakash R</h1>
+  <pre id="typewrite">S</pre> -->
+		<!-- <div class="flex-row d-flex spac justify-content-center justify-content-md-start">
 			<a href="https://www.linkedin.com/in/prakashiit/" class="fa fa-linkedin"></a>
 			<a href="mailto:prakash.r@iitgn.ac.in" class="mar10 fa fa-envelope"></a>
 			<a href="https://github.com/delta-ng" class="mar10 fa fa-git"></a>
-		</div>
-		</div>
-	</div>
+		</div> -->
+<!-- 		</div>
+	</div> -->
 </div>
 
-<div class="container-fluid pad30">
+<div class="container-fluid">
     <div class="row">
-        <div class="col-lg-6 white pad12 card">
-            <div class="head-text">
-                <h3>About Me</h3>
+        <div class="col-lg-10 white pad11 card">
+            <div class="topic">
+                <h3><a href="https://github.com/delta-ng/Concurrent-Webserver" class="black">Concurrent Webserver </a></h3>
             </div>
-            <div class="normal-text">
-                I am a sophomore at Department of Electrical and Engineering at IIT Gandhinagar, India. I have been working as an intern at the
-                University of Saskatchewan as a data analyst. I am also developing a portfolio website. This is the preliminary version.
-                I started coding when I was 14. I built my first full-stack website when i was 15. I was not able pursue it further as I was
-                preparing for my JEE exam. Now, finally getting into an IIT I have started coding again.
-                My hobbies include poker and chess. I love Rom-Com movies and tv series. <br>
-                Interests: <p id="box">Data Analysis</p> <p id="box"> Full Stack Devlopment</p>
+            <div class="normal-text1">
+                ■ Developed an concurrent webserver from a non-concurrent webserver. Multi-threaded the webserver so that it can handle multiple requests at the same time. <br>
+                ■ The excess request is stored in a buffer which is later scheduled by the policies like Smallest File First and FIFO. <br>
+                <p id="box">Threading</p> <p id="box">Language: C</p>
             </div>
         </div>
-        <div class="col-lg-3 white pad12 card">
+        <div class="col-lg-10 white pad11 card">
+            <div class="topic black">
+                <h3>Generating SQL queries from Natural Language </h3>
+            </div>
+            <div class="normal-text1">
+                ■ Currently working on model which would convert a natural language question to SQL query for the ACL anthology dataset. Annotated around 200 question-sql pairs with placeholders and augmented them.<br>
+                ■ Implemented a baseline SyntaxSQLNet model for complex and cross domain dataset Spider 1.0. Currently working with random forest classifiers for columns and tables names and using BERT for the condition prediction task. Exact Match accuracy of the model is 65% currently.<br>
+                <p id="box">NLP</p> <p id="box">Language: Python</p>
+            </div>
+        </div>
+        <div class="col-lg-10 white pad11 card">
+            <div class="topic black">
+                <h3>Automated Paper Generator </h3>
+            </div>
+            <div class="normal-text1">
+                ■ Developed an algorithm to generate a question paper in LATEX from the database. A question is categorized into 2 groups, one is the difficulty level and other is the topic (Algebra, Calculus).<br>
+                ■ Algorithm takes the total number of question and range of the number of question required in each sub-groups as input.<br>
+                <p id="box">Algorithm</p> <p id="box">Language: Python</p>
+            </div>
+        </div>
+<!--         <div class="col-lg-3 white pad12 card">
             <div class="head-text">
                 <h3>Blog Posts</h3>
             </div>
@@ -89,7 +107,7 @@
 <div class="blog"><p class="date">4 July 2019<p class="post"><a href="https://medium.com/@prakashiit/how-to-write-a-winning-5-second-resume-for-a-software-engineering-internship-64453a0068ff" class="black">
 	How to write a winning-5 second resume for a software engineering internship?</a></p></p></div>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
 </main>
